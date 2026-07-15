@@ -12,9 +12,9 @@ Identify outliers.
 Prepare the dataset for further statistical analysis and machine learning.
 
 
-Preprocessing Steps Performed
+## Preprocessing Steps Performed
 
-### 1. Import Required Libraries
+### -  Import Required Libraries
 
 Imported Python libraries required for data manipulation and visualization:
 
@@ -23,7 +23,7 @@ NumPy
 Matplotlib
 Seaborn
 
-### 2. Load the Dataset
+### -  Load the Dataset
 
 The dataset was loaded into a Pandas DataFrame for analysis.
 
@@ -31,7 +31,7 @@ The dataset was loaded into a Pandas DataFrame for analysis.
 
   https://archive.ics.uci.edu/dataset/513/real+time+election+results+portugal+2019
 
-### 3. Initial Data Exploration
+### -  Initial Data Exploration
 
 The following methods were used:
 
@@ -48,18 +48,18 @@ Basic statistical summary
 Dataset structure
 
 
-### 4. Missing Value Analysis
+###  - Missing Value Analysis
 
 Purpose:
 
 Identify incomplete records
 Decide appropriate strategies for handling missing values
 
-### 5. Duplicate Record Detection
+###  - Duplicate Record Detection
 
 Removing duplicates helps improve data quality and avoids bias in later analyses.
 
-### 6. Data Type Verification
+###  - Data Type Verification
 
 Verified that every feature has the appropriate data type.
 
@@ -70,7 +70,7 @@ Categorical columns → Object
 
 Correct data types are essential for preprocessing and modeling.
 
-### 7. Statistical Summary
+###  - Statistical Summary
 
 Generated descriptive statistics including:
 
@@ -83,7 +83,7 @@ Quartiles
 
 This helped understand the overall distribution of numerical variables.
 
-### 8. Outlier Detection
+###  - Outlier Detection
 
 Outliers were detected using Boxplots.
 
@@ -92,7 +92,7 @@ Purpose:
 Identify unusually high or low values.
 Determine whether further outlier treatment is required.
 
-### 9. Data Visualization
+###  - Data Visualization
 
 Visualizations were created to better understand the data.
 
@@ -124,7 +124,7 @@ Most preprocessing tasks improve the quality and reliability of the dataset for 
 ######################################################################################################################################################################
 
 
-# Outlier Handling - Election Result Portugal 2019
+### Outlier Handling 
    - first we have identified  the outlier using Boxplot.
    - after finding outliers , we try to clip with IQR method
    - finally ,again verify with Boxplot
@@ -132,7 +132,7 @@ Most preprocessing tasks improve the quality and reliability of the dataset for 
 ######################################################################################################################################################################
 
 
-### . Correlation Analysis
+###  Correlation Analysis
 - Computed the Pearson correlation matrix for all numerical features.
 - Identified relationships between variables.
 ### . Correlation Heatmap
