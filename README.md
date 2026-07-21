@@ -15,7 +15,7 @@ This notebook details a machine learning project focused on predicting `FinalMan
 ### Preprocessing Steps Performed
 
 #### 1. Data Loading & Initial Exploration
-- Dataset loaded from `/content/drive/MyDrive/ICT - Ai Ml/DataPreprocessing - Group 1/Data/ElectionData.csv`.
+- Dataset loaded from :  https://archive.ics.uci.edu/dataset/513/real+time+election+results+portugal+2019 .
 - Initial checks performed using `head()`, `shape`, `info()`, and `describe()` to understand data types, dimensions, and basic statistics.
 
 #### 2. Missing Value & Duplicate Handling
